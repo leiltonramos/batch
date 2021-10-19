@@ -6,5 +6,7 @@ nircmd.exe win hide ititle "drink water"
 :loop
 cls
 start cmd /k echo DRINK WATER!
-timeout /t 5
+
+rem 3600 is in seconds
+timeout /t 3600
 goto loop
